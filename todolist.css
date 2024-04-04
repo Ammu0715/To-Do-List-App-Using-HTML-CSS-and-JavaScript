@@ -1,0 +1,110 @@
+
+body {
+  background-image: linear-gradient(rgba(13, 1, 1, 0.733),rgba(44, 219, 14, 0.519));
+  min-height: 70px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #610508;
+  text-align: center;
+  font-size: 130%;
+}
+  body {
+    min-height: 100vh;
+  }
+.Box {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 800px;
+  min-width: 250px;
+  background-color:rgba(218, 238, 197, 0.942);
+  background-size: 25px 25px;
+  border-radius: 100px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.Main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.Topic {
+  margin-left: 170px;
+  margin-right: 170px;
+  background-color: rgba(211, 116, 129, 0.7);
+  font-size: 1.5rem;
+}
+.form__label:hover{
+  background-color: rgb(227, 116, 65);
+  color: bisque;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+  .heading__title {
+    font-size: 2rem;
+  }
+.todo1{
+  width: 28%;
+  height: 12%;
+}
+.form__label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.form__input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px #e473d7;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  color: rgba(3, 0, 9, 0.7);
+  width: 70%;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;  
+}
+.form__input:focus {
+  outline: none;
+  border: solid 3px #180d17;
+} 
+  .form__input {
+    width: 60%;
+  }
+.button {
+  transform: rotate(2deg);
+  transform-origin: center;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  background-color: rgba(47, 236, 192, 0.7);
+}
+
+.button span {
+  background: #95b3ca;
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #1277e3;
+}
+.button:active, .button:focus {
+  transform: translateY(4px);
+}
+.toDoList {
+  text-align: left;
+  text-decoration: solid;
+  text-size-adjust: 50px;
+}
+.toDoList li {
+  position: relative;
+  padding: 0.5rem;
+}
+.toDoList li:hover {
+  text-decoration: line-through wavy #24bffb;
+}
